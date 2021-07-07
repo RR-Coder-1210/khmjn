@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+background-image: url("concrete-road.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+    margin-top: 30px;
+border-width:10px;
+background-color: white; 
+    border-style:ridge;
+}
+
+h1
+{
+color: rgb(43, 255, 138) !important;
+font-family: 'Cinzel', serif !important;
+}
+
+h3 
+{
+color: rgb(43, 230, 255) !important;
+font-family: 'Zen Loop', cursive !important;
+}
+
+h4 
+{
+color: rgb(255, 251, 43) !important;
+font-family: 'Lobster Two', cursive !important;
+}
+
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two&family=Zen+Loop&display=swap" rel="stylesheet">
+
+<title>Valet Parking </title>
+</head>
+<body onload="add();">
+
+
+<center>
+<h1>Valet Parking</h1>
+<h3>Move the green car with arrow keys</h3>
+<h4>
+<b class="text-danger">NOTE : </b> IF CAR IS NOT VISIBLE, PRESS ANY ARROW KEY
+</h4>
+
+<!--- Create Canvas--->
+
+<canvas id="myCanvas" width="800" height="600">
+</canvas>
+
+
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
